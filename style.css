@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2014/03/Sea-green-blur-background1.jpg);
+    background-size: cover;
+}
+
+ul {
+    color: royalblue;
+}
+
+h2 {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* . is used to access the class in html*/
+
+.mytext {
+    color: indigo;
+    border: 5px dashed green;
+}
+
+.secondClassName {
+    color: lawngreen;
+}
+
+
+/* # is used to access the id of the html div tag*/
+
+#div1 {
+    background-color: rgba(255, 0, 0, 0.21);
+}
+
+#div2 {
+    background-color: rgba(255, 19, 5, 0.9);
+}
+
+p {
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 190%;
+    /*If the user has not franklin gothic medium then use Arial Narrow if it is not then so on go to right*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

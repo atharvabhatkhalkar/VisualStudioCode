@@ -1,0 +1,38 @@
+ /*displays the images in flex mode[display:flex]*/
+ /*wraps the images[flex-wrap:wrap]*/
+ /* to move the content towards centre[justify-content:center]*/
+ /*[em] is used to scale up the current font size eg. default size-12px 3em:12*3=36px */
+ 
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ /*some browser are not updated with latest version of css so we need to specify the element by using
+ the tags ie, use it on eperiment basis so we use [-moz- tag for mozila] [-ms- for internet explorer] [-webkit- for safari and chrome] [-o- for opera]*/
+ 
+ h1 {
+     font-family: fantasy;
+     font-size: 3em;
+     border-bottom: 2px solid pink;
+     border-right: 2px solid pink;
+     width: 400px;
+     text-align: center;
+     -moz-box-shadow: 4px 4px 5px #888888;
+     -ms-box-shadow: 4px 4px 5px #888888;
+     -webkit-box-shadow: 4px 4px 5px #888888;
+     -o-box-shadow: 4px 4px 5px #888888;
+     box-shadow: 4px 4px 5px #888888;
+     margin-top: 10px;
+ }
+ 
+ img {
+     width: 550px;
+     height: 400px;
+     margin: 15px;
+     transition: all 1s;
+ }
+ 
+ img:hover {
+     transform: scale(1.1);
+ }
